@@ -1,0 +1,9 @@
+pandas
+requests
+feedparser
+beautifulsoup4
+tqdm
+matplotlib
+networkx
+scikit-learn
+spacy
