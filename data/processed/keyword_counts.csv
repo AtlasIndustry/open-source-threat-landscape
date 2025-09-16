@@ -1,0 +1,50 @@
+,count
+exploit,26
+RCE,19
+malware,17
+FIN,16
+Microsoft,15
+patch,14
+phishing,12
+CVE-,12
+Windows,10
+APT,9
+zero-day,9
+supply chain,8
+ransomware,8
+Conti,7
+C2,6
+backdoor,5
+Fortinet,2
+Exchange,2
+initial access,2
+Chrome,1
+Active Directory,1
+lateral movement,1
+Palo Alto,1
+F5,1
+Akira,1
+LPE,1
+exfiltration,1
+VPN,1
+SharePoint,1
+Cisco,1
+SonicWall,1
+0-day,0
+botnet,0
+Clop,0
+BlackCat,0
+ALPHV,0
+Qilin,0
+LockBit,0
+APT29,0
+Lazarus,0
+Pulse Secure,0
+SSLVPN,0
+Juniper,0
+Citrix,0
+Outlook,0
+Firefox,0
+data leak,0
+DDoS,0
+wiper,0
