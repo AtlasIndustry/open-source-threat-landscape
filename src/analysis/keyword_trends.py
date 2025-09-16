@@ -1,7 +1,13 @@
 import pandas as pd, glob, os
 from pathlib import Path
 
-KEYWORDS = ["ransomware","phishing","zero-day","APT","CVE-","SharePoint","SonicWall","LockBit","Akira"]
+KEYWORDS = [
+    "ransomware","phishing","zero-day","0-day","APT","CVE-","exploit","malware","backdoor","botnet","supply chain",
+    "LockBit","Akira","Qilin","ALPHV","BlackCat","Clop","Conti","FIN","APT29","Lazarus",
+    "SonicWall","Fortinet","Cisco","Palo Alto","Juniper","Citrix","F5","Pulse Secure","VPN","SSLVPN",
+    "Microsoft","SharePoint","Exchange","Outlook","Active Directory","Windows","Chrome","Firefox",
+    "initial access","lateral movement","C2","exfiltration","data leak","DDoS","wiper","RCE","LPE","patch",
+]
 
 files = sorted(glob.glob("data/raw/rss_*.csv"))
 if not files:
